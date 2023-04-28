@@ -178,14 +178,16 @@ header .ihfounders{
 #estructura > div {
     display:flex;
     flex-wrap: wrap;
-
+    align-items: center;
 }
+
+
 #estructura article {
-    border: 1px solid var(--darkblue);
+    /* border: 1px solid black; */
     width: 50%;
     border-radius: 8px;
-   
-  
+    
+    
 
 }
 
@@ -203,8 +205,17 @@ header .ihfounders{
 
 #equipo {
     background-color: var(--darkBlue);
+    padding: 40px 0px 40px 0px;
 }
-
+.section-text p {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+.section-text div{ 
+    display:flex;
+    justify-content: center;
+    gap:40px;
+}
 #equipo > .section-text {
     font-size:1.9em;
     text-align: center;
