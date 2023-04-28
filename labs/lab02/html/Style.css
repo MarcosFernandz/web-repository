@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+/* Root definition of color vars */
+
+*{
+    margin: 0;
+}
+:root {
+    /* Colors */
+    --blue: #1e90ff;
+    --darkBlue: #33587d;
+    --textColor: #fafafa;
+}
+
+/*#example {
+    background-color: var(--primarycolor);
+    outline: 1px var(--primarycolor) solid;
+}*/
+
+/* General styling  */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font family: "roboto", arial, helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;
+}
+
+h4 {
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+h5 {
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+/* Nav Bar Styles */
+
+.nav-bar{
+    background: var(--darkBlue);
+    padding: 1rem 0 ;
+    position: fixed;
+    width: 100%;
+
+}
+
+.nav-bar ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around ;
+    padding:0rem 4rem;
+}
+.nav-bar ul> li {
+    list-style-type: none;
+}
+.nav-bar ul> li> a {
+    color:white;
+    text-decoration:none;
+    font-size: 1.5em;
+
+    }
+
+.nav-bar ul> li> a:hover {
+        color:red;
+        text-decoration:none;
+        font-size: 2em;
+        }
+
+
+/* header styling* */
+
+header {
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg) ;
+    background-position: center center
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+
+header h1,
+h2 {
+    color:white;
+
+}
+
+header h2 {
+    text-shadow: black 8px -8px 9px;
+}
+header .ihfounders{
+    display:flex;
+    color: white;
+    flex-direction:column;
+    justify-content: start;
+    text-align: left;
+    width: 50%
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+/*Section 01- General info*/
+
+#informacion-general {
+    background-color: var(--darkBlue);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    color:white;
+}
+
+#informacion-general article {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    width:30%;
+ 
+}
+
+#informacion-general article > p {
+    margin: 1rem 0 2rem 0;
+    width: 50%;
+    font-weight: 300;
+}
+
+#informacion-general article > a {
+    color:white;
+    text-decoration: none;
+    background: var(--blue);
+    padding: 1rem;
+    border-radius: 16px;
+}
+/*section 02 -estructura*/
+#estructura {
+    padding: 4rem 0;
+    height: 800px;
+}
+
+#estructura h3 {
+    color: black;
+}
+
+#estructura > div {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+#estructura article {
+    border: 1px solid var(--darkblue);
+    width: 50%;
+    border-radius: 8px;
+   
+  
+
+}
+
+.service-box {
+    font-size: 1.7em;
+    text align: center;
+   
+    
+        
+}
+
+.service-box img{
+    width:  125px;
+}
+
+#equipo {
+    background-color: var(--darkBlue);
+}
+
+#equipo > .section-text {
+    font-size:1.9em;
+    text-align: center;
+}
+
+#equipo >.member-name {
+    font-size:1.5em;
+    font-weight: 700;
+}
+
+#equipo img{
+    width: 250px;
+    height:180px;
+}
+
+footer   {
+    background-color: var(--darkBlue);
+    color:white;
+    text-align:center;
+    list-style:none;
+    line-height: 2em;
+    
+}
+
+footer > .footer {
+    text-align: center;
+    
+    font-size:1.9em;
+}
+
+address .address {
+    font-style: normal;
+    font-size:0.8em;
+}
+
+.footer a{
+    color:blue;
+    text-decoration:none;
+    list-style:none;
+    
+}
+
+footer > ul{
+    list-style: none;
+}
