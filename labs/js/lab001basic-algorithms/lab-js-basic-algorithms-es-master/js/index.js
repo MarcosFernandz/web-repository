@@ -17,6 +17,8 @@ console.log(hackerTwo.length);
 
 console.log("Que variable contiene el nombre mas largo?");
 
+
+// Iteration 2: Conditionals
 //hacker 1 mas largo
 
 if (hackerOne.length > hackerTwo.length) {
@@ -34,7 +36,26 @@ else {
 }
 
 
-// Iteration 2: Conditionals
-
-
 // Iteration 3: Loops
+
+
+//3.1  Mayúscula+Espaciado
+let driver = "Marcos";
+let newName ="";
+
+
+for (let indice = 0; indice < driver.length; indice++) {
+    newName +=driver[indice].toUpperCase() + " ";
+}console.log(newName);
+
+//3.2 Reverse+Mayúscula+Espaciado   
+
+let driverName = "Marcos"
+let driverNameReversed =" "
+
+for (let i = driverName.length -1; i >= 0; i--) {
+    driverNameReversed +=driverName[i].toUpperCase() + " ";
+}console.log(driverNameReversed);
+
+//3.3  Orden  Lexicografico
+
