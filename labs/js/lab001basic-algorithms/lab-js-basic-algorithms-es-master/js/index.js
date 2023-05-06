@@ -59,3 +59,39 @@ for (let i = driverName.length -1; i >= 0; i--) {
 
 //3.3  Orden  Lexicografico
 
+//El nombre del conductor va primero
+
+let driver1=""
+let navi1="John"
+
+if (driver1<navi1) {
+    console.log("El nombre del  conductor va primero.");
+    } else if (driver1 > navi1) {
+        console.log("Yo, el navegador va priemro definitivamente.");
+    } else  {
+        console.log ("¿Qué? ¿Los dos tienen el mismo nombre?");
+    }
+
+    //Yo,  el  navegador va primero   definitivamente
+    let driver2 = "John"
+    let navi2 =""
+
+    if (driver2   < navi2) {
+        console.log("El nombre del conductor va primero.");
+    }else  if (driver2  >navi2  )   {
+        console.log("Yo,  el navegador va primero definitivamente.");
+    }  else  {
+        console.log("¿Qué?  ¿Los dos tiene el mismo  nombre?");}
+
+        //¿Qué?¿Los dos  tienen el mismo nombre?
+    
+    let  driver3  ="John"
+    let navi3="John"
+
+    if (driver3<navi3) {
+        console.log("El nombre del  conductor va primero.");
+        } else if (driver3 > navi3) {
+            console.log("Yo, el navegador va priemro definitivamente.");
+        } else (driver3 =  navi3); {
+            console.log ("¿Qué? ¿Los dos tienen el mismo nombre?");
+        }
