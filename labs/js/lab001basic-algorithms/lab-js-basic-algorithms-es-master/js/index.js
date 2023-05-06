@@ -91,7 +91,7 @@ if (driver1<navi1) {
     if (driver3<navi3) {
         console.log("El nombre del  conductor va primero.");
         } else if (driver3 > navi3) {
-            console.log("Yo, el navegador va priemro definitivamente.");
+            console.log("Yo, el navegador va primero definitivamente.");
         } else (driver3 =  navi3); {
             console.log ("¿Qué? ¿Los dos tienen el mismo nombre?");
         }
